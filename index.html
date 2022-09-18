@@ -1,312 +1,108 @@
-<html>
+ <html>
     <head>
+	<title>MARVEL_STUDIO</title>
+		<link href="index.css" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lux/bootstrap.min.css" integrity=
+		"sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" crossorigin="anonymous">
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+		crossorigin="anonymous"></script>
 	
-	    <link rel="stylesheet" href="style.css">
-	<script>
-
-        /*var nameVar;
-		nameVar = 'Hello';
-		alert(nameVar);
-		nameVar = 'word';
-        alert(nameVar);*/
+	</head>    
 		
-	    /*var years = prompt('Сколько тебе лет?');
-		alert(years);*/
-		
-       /*var х = 1;
-	   х = '2' - 1;
-	   alert(х);*/
-	   
-	   
-	   /*var first = prompt('Кол-во товара 1 типа');
-	   var second = prompt('Кол-во товара 2 типа');
-	   
-	   alert((+first) + (+second));*/
-	   
-	   /*var calories = prompt('Сколько ты скушал?');
-
-	   if (calories > 2000)
-	   {
-	       alert('Хватит кушать, иди спать!!');
-	   }
-	   else
-	   {
-            alert('Иди покушай.');	   
-	   }*/
-	   
-	   /*for (var i = 0; i < 5; i++)
-	   {
-	        alert(i);
-	   }*/
-	   
-	   /*var pass;
-	   while(pass != 123)
-	   {
-            pass = prompt('Введите пароль :')
-	   }*/
-	   
-	   /*var tasks = [];
-	   
-	   tasks = ['Сделать уроки',"Сходить в магазин,", "Убраться в комнате"];
-	   
-	   alert(tasks);
-    
-	   tasks[1] = 'Погулять'
-	   
-	   alert(tasks);
-	   
-	   tasks[3] = 123;
-	   
-	   alert(tasks);*/
-
-    var login = prompt("Login" "");
-    if(login == "Админ")
-        var password = prompt("Password" "");
-    else if(login == null;)
-        message = "Вход отменён"
-    else
-var alert = ("Я вас не знаю");
-
-    if(password=null;)
-        message = "Вход отменён"
-    else if(password == "Черный Властелин")
-        alert = "Добро пожаловать!"
-    else
-var alert = ("Пароль неверен");
-
-	</script>
-	
-	<style>
-	
-	   .menu{
-	   	display: flex;
-        flex-direction: row;
-	   }
-	   
-	   .header-row{
-	   	display: flex;
-        flex-direction: row;
-		align-items: center;
-		padding: 0 50px;
-	   }
-	   
-	   .header-logo{
-	   	display: flex;
-        flex-direction: row;
-		align-items: center;
-		flex-grow: 1;
-	   }
-	   
-	   *
-	   {
-	   	padding: 0;
-		margin: 0;
-	   }
-		png
-		{ width: 50px;
-			height: 50px;
-		}
-		 
-		 
-		 
-	    .container
-		{
-		padding: 0 15px;
-		margin: 0 auto;
-		}
-		
-		.header
-		{
-		color: white;
-		padding: 20px;
-		background: #200772;
-		}
-		
-		.menu-item
-		{
-		    list-style: none;
-		}
-		
-		.menu-link
-		{
-		    text-decoration: none;
-			color: white;
-			padding: 0 5px;
-		}
-		
-		.banner-section
-		{
-		background: url(images/banner-bg.jpg);
-		padding: 100px 0;
-		background-size: cover;
-		}
-		
-		.banner-text
-		{
-		color: white;
-		text-align: center;
-		}
-		
-		.banner-title
-		{
-		font-size: 48px;
-		}
-		 
-		 .footer
-		 {
-		 	background: url(images/footer-bg.jpg);
-		    padding: 100px 0;
-		    background-size: cover;
-			color: white;
-		 }
-		 
-		.cards-section
-		 {
-		 padding: 50px 0;
-		 }
-		 
-		.cards-title, .cards-description
-		{
-			color: #151c39;
-			text-align: center;
-		}
-		 
-		.card
-		{
-			padding: 25px;
-			margin-top: 25px;
-			width: 25%;
-			background: white;
-			box-shadow: 0px 2px 7px #9e90ff;
-			text-align: center;
-		}
-		
-		 .card-link
-		{
-            color: white;
-		    text-decoration: none;	
-        }		
-		 .card:hover
-		 {
-		 box-shadow: 0px 10px 30px #9e90ff;
-		 }
-		 
-		.card-button
-		{
-			text-align: center; 
-			background: #151c39;
-			padding: 10px 70px;
-			border-radius: 10px;
-		}
-		.cards-title,
-		{
-		color: blask;
-		text-align: center;
-		}
-		
-		.cards-row
-		{
-		display: flex;
-        flex-direction: row;
-		justify-content: space-around;
-		}
-		
-	</style>
-	</head>
 	<body>
 	
-	<header class="header">
-	    <div class="container header-row">
+	<div class="navbar">
 		
-		<div class="header-logo">
-		       <img src="images/cat.png" class="logo-img" ></img>
-			   <h1 class="logo-title">CATS</h1>
-        </div>	
-	    <div  class="header-menu">
-		    <ul class = "menu">
-			        <li class = "menu-item">
-				    <a href="#" class = "menu-link">животные</a>
-				</li>
-				      <li class = "menu-item">
-					  <a href="#"  class = "menu-link">карта</a>
-				</li>
-				
-				      <li class = "menu-item">
-					  <a href="#"  class = "menu-link">о нас</a>
-				</li>
-			</ul>
-		  </div>	
-		 </div>
-	</header>
-	
-	<main class="main">
-	
-	<section class="banner-section">
-	    <div class="container">
-		    <div class="banner-text">
-			    <h1 class="banner-title">
-				    Зоомагазин
-			    </h1>
-			    <div class="baner-descripton">
-				    Заведи питомца!
-		        </div>
-		    </div>
-	    </div>
-	</section>
-	
-	<section class="cards-section">
-	    <div class="container">
-		    <div class="banner-text">
-	        <div class="cards-text">
-		        <h1 class="cards-title">Рекомендуемые животные!</h1>
-	            <div class="cards-description">Специально для вас</div>
-			</div>	
+			<img src="images/1-logo.png" class="logo" id="logoimg">
+		    <img src="images/Marvel-symbol (3).jpg" class="title">
+
 			
-		    </div>
-                <div class="cards">	
-                    <div class="cards-row">
-                        <div class="card">
-		                    <img src="images/Vasiliy.jpg"></img>
-		                    <h3 class="card-title">Кот Вассилий</h3>
-	                        <div class="card-text">Ищет добрых хозяев</div>
-						    <div class="card-button">
-		                        <a href="#" class = "card-link">Узнать подробности</a>   
-	                        </div>
-	                    </div>
-						
-						<div class="card">
-		                    <img src="images/Vasiliy.jpg"></img>
-		                    <h3 class="card-title">Кот Вассилий</h3>
-	                        <div class="card-text">Ищет добрых хозяев</div>
-						    <div class="card-button">
-		                        <a href="#" class = "card-link">Узнать подробности</a>   
-	                        </div>
-	                    </div>
-						
-						<div class="card">
-		                    <img src="images/Vasiliy.jpg"></img>
-		                    <h3 class="card-title">Кот Вассилий</h3>
-	                        <div class="card-text">Ищет добрых хозяев</div>
-						    <div class="card-button">
-		                        <a href="#" class = "card-link">Узнать подробности</a>   
-	                        </div>
-	                    </div>
-                    </div>
-	            </div>
-				
-	    </div>
-    </section>
-	
-    </main>
-	
-	
-<footer class="footer">
-     <div class="container">
-	    <div class="copyright">
-		    Копирайт 2022. Все права защищены Maximum Education.
 		</div>
-	</div>	
-	</footer>
 	
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+			<a class="navbar-brand" class="Logo-SH" href="#">MARVEL</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarColor01">
+			  <ul class="navbar-nav me-auto">
+				<li class="nav-item">
+				  <a class="nav-link active" href="#">Главная страница
+					<span class="visually-hidden"></span>
+				  </a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" class="font-p" href="article4.html">История  m a r v e l</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="article5.html">Тест  m a r v e l</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="article6.html">фильмы  m a r v e l</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="article7.html">Персонажи  m a r v e l</a>
+				</li>
+
+			  </ul>
+
+			</div>
+		  </div>
+		</nav>
+		<div class="m-5">		
+	    <div class="font-o">"MARVEL - Что это такое?"</div>
+		<ul> 
+			<li  class="font-s">✎ ❝Сегодня Marvel — не просто компания, создающая графические новеллы.
+			Скорее, это один из ┊крупнейших агрегаторов комикс-культуры, являющийся неотъемлемой частью счастливого детства и юности ┊многих из нас. 
+			Своя киновселенная, супергерои и суперзлодеи, истории настоящей дружбы и подлого ┊предательства — всё это корпорация создаёт для нас уже не одно десятилетие.
+			Сегодня мы разберёмся, как ┊всё начиналось, и проследим её жизненный путь от первых комиксов до мировых блокбастеров.❞</li>
+			<p>	
+			<div class="m-5">		
+			-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+			</div>
+			</p>
+			<li class="font-s">✎ ❝Годом зарождения Marvel можно по праву назвать 1939. Тогда американский издатель по имени Мартин ┊Гудмен захотел
+			превратить несколько своих компаний в одну — он назвал её Timely Comics. В то время он в ┊основном занимался разработкой pulp-журналов — недорогих регулярных газетёнок,
+			в которых ┊публиковались скандальные истории, сентиментальные рассказы и прочее бульварное чтиво. Само слово ┊«pulp» означало дешёвую бумагу из вторсырья — самый доступный
+			на тот момент материал, подходящий для ┊нанесения типографской краски.❞</li>  				
+		</ul> 
+		</div>
+	
+	
+        		
 	</body>
-</html>
+	
+	<script>
+		var mas = ["images/1-logo.png","images/6-logo.png","images/7-logo.png","images/4-logo.png"];
+		var counter = 0;
+		$("#logoimg").click(function(){
+			counter = (counter + 1) % mas.length;
+			$("#logoimg").attr("src", mas[counter]);
+		});
+		
+	</script>
+		
+			<footer class="footer">
+				<div class="bg-primary p-5 d-flex foter-content">
+					<div>
+						<div class="foter-text">ⓂКопирайт 2022. Все права защищены Maximum✔</div>	
+						<div class="foter-text">➫   Наши номера☎   :</div>
+						<div class="foter-text">+7(911)435-66-56</div>
+						<div class="foter-text">+7(911)899-39-98</div>
+						<div class="foter-text">+7(911)340-87-90</div>
+					</div>
+					<div>
+						<div class="foter-text">➫   Наши соц-сети📲  :</div>
+						<img src="images/vk.png","images/youtube.png",>
+						<img src="images/youtube.png">
+						<img src="images/instagram.png">
+						<img src="images/facebook.png">
+					</div>
+				</div>
+			</footer>
+		
+ </html>	

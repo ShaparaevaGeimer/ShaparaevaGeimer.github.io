@@ -1,0 +1,99 @@
+<html>
+    <head>
+	<title>Фильмы_MARVEL</title>
+		<link href="index.css" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lux/bootstrap.min.css" integrity=
+		"sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" crossorigin="anonymous">
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+		crossorigin="anonymous"></script>
+	
+	</head>    
+		
+	<body>
+	
+	<div class="navbar">
+		
+			<img src="images/1-logo.jpg" class="logo" id="logoimg">
+		    <img src="images/Marvel-symbol (3).jpg" class="title">
+
+			
+		</div>
+	
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+			<a class="navbar-brand" href="#">MARVEL</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarColor01">
+			  <ul class="navbar-nav me-auto">
+				<li class="nav-item">
+				  <a class="nav-link active" href="article6.html">Фильмы  m a r v e l
+					<span class="visually-hidden"></span>
+				  </a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" class="font-p" href="article4.html">История m a r v e l</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="article5.html">Тест  m a r v e l</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html">Главная страница</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="article7.html">Персонажи  m a r v e l</a>
+				</li>
+
+			  </ul>
+
+			</div>
+		  </div>
+		</nav>
+		<div class="m-5">		
+	    <div class="font-o">"Фильмы  MARVEL"</div>
+		
+		<div> 1945 год - <img src="images/caputan1.jpg" class="cart">
+		1946 - <img src="images/4_Agent-Carter.jpg" class="cart">1995 год - <img src="images/capitan_Marvel.jpg" class="cart">
+		2009 год - <img src="images/IronMan1.jpg" class="cart">2010 год - <img src="images/Halk1.jpg" class="cart"></div>
+		
+				
+		</div>
+	
+	
+        		
+	</body>
+	
+	<script>
+		var mas = ["images/1-logo.png","images/6-logo.png","images/7-logo.png","images/4-logo.png"];
+		var counter = 0;
+		$("#logoimg").click(function(){
+			counter = (counter + 1) % mas.length;
+			$("#logoimg").attr("src", mas[counter]);
+		});
+		
+	</script>
+		
+			<footer class="footer">
+				<div class="bg-primary p-5 d-flex foter-content">
+					<div>
+						<div class="foter-text">ⓂКопирайт 2022. Все права защищены Maximum✔</div>	
+						<div class="foter-text">➫   Наши номера☎   :</div>
+						<div class="foter-text">+7(911)435-66-56</div>
+						<div class="foter-text">+7(911)899-39-98</div>
+						<div class="foter-text">+7(911)340-87-90</div>
+					</div>
+					<div>
+						<div class="foter-text">➫   Наши соц-сети📲  :</div>
+						<img src="images/vk.png","images/youtube.png",>
+						<img src="images/youtube.png">
+						<img src="images/instagram.png">
+						<img src="images/facebook.png">
+					</div>
+				</div>
+			</footer>
+		
+ </html>	

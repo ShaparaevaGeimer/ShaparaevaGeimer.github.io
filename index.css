@@ -1,0 +1,119 @@
+*
+{
+	padding: 0;
+	margin: 0; 	
+}	
+.menu
+{
+	display: flex;
+	flex-direction: row;
+}
+.header-row
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 50px;
+}
+
+.header-logo
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.header
+{
+	color: white;
+	padding: 20px;
+	background: black;
+}
+.banner-section
+{
+	background: url(images/banner-bg.jpg);
+	padding: 100px 0;
+	background-size: cover;
+}
+.logo
+{
+	height: 150px;
+}
+.title
+{
+	height: 150px;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	background: black;
+	color: white;
+}	
+.font-s
+{
+	font-size: 30px;
+}
+.font-o
+{
+	font-size: 38px;
+}
+.font-p
+{
+	font-size: 40px;
+}
+.p 
+{
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: justify;
+	width: 400px;
+}
+.foter-text
+{
+	color: white;
+}
+.logo-SH
+{
+	font-size: 80px;
+}
+.cart
+{
+	height: 150px;
+}
+.MyCard
+{
+	margin : 20px;
+}	
+.foter-content
+{
+	justify-content: space-around;
+}
+.info
+{
+	display: flex;
+}
+
+.info-text
+{
+	display: none;
+}
+.topic
+{
+	display: flex;
+	flex-direction: column;
+}
+.carts
+{
+	height: 200px;
+}
+
+
+	
+
+
+
+	
+	
